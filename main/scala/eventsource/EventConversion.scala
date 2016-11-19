@@ -2,11 +2,11 @@ package scala.eventsource
 
 trait EventConversion {
 
-  def stringToEvent() = {
+  def payloadStringToEvent() = {
 
   }
 
-  def stringToEventList() = {
+  def payloadStringToEventList() = {
 
   }
 

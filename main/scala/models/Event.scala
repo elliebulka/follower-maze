@@ -2,11 +2,26 @@ package scala.models
 
 object Event {
 
-  case class FollowEvent {
-    value: String
+  trait EventObj {
+    def payload = String
+    def sequence = Int
+    def payloadType = String
+  }
+
+  case class FollowEvent extends EventObj {
+    payload: String,
+    sequence: Int,
+    payloadType: String,
+    fromUserId: Int,
+    toUserId: Int
   }
 
   case class UnfollowEvent {
-    value: String
+    payload: String,
+    sequence: Int,
+    payloadType: String,
+    fromUserId: Int,
+    toUserId: Int
   }
+
 }
