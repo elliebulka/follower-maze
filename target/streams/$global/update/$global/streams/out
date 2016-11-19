@@ -7,105 +7,38 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c4ec9ad[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2505595[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0m		tried /Users/elliebulka/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4-SNAPSHOT/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: found md file for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0m		=> http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom (2.4-SNAPSHOT)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom ...[0m
-[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT!akka-actor_2.11.pom(pom.original) (111ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/elliebulka/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4-SNAPSHOT/jars/akka-actor_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar[0m
-[0m[[0mdebug[0m] [0mcom.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT in Akka Snapshot Repository[0m
-[0m[[0mdebug[0m] [0m	[2.4-SNAPSHOT] com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.3.0[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.3.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.3.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.3.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [compile][0m
@@ -113,29 +46,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [runtime][0m
@@ -144,29 +69,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 {test=[default(compile)]}[0m
@@ -175,9 +92,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -185,9 +100,7 @@
 [0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -196,9 +109,7 @@
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -207,24 +118,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-test_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -232,9 +140,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-test_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-test_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->com.typesafe.play#play-netty-server_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-server_2.11;2.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-netty-server_2.11;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -242,9 +148,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-netty-server_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->com.typesafe.play#play-netty-server_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->com.typesafe.play#play-server_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-server_2.11;2.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-server_2.11;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -252,9 +156,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-server_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->com.typesafe.play#play-server_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.11;2.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play_2.11;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -262,9 +164,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#build-link;2.5.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#build-link;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -284,9 +184,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-iteratees_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.11;0.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-stm#scala-stm_2.11;0.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -295,11 +193,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.3.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.3.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-json_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.11;2.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-json_2.11;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -307,9 +210,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-json_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-json_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-functional_2.11;2.5.0 [compile->master(compile)][0m
@@ -319,9 +220,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-functional_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-functional_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-datacommons_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.11;2.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-datacommons_2.11;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -329,9 +228,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-datacommons_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-datacommons_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->joda-time#joda-time;2.9.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.9.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.9.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -425,9 +322,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-streams_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-streams_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master(compile)][0m
@@ -443,9 +338,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-stream_2.11;2.4.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.akka#akka-stream_2.11;2.4.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -453,18 +346,25 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.4.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
@@ -480,9 +380,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe#ssl-config-akka_2.11;0.1.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe#ssl-config-akka_2.11;0.1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->com.typesafe#ssl-config-core_2.11;0.1.3 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#ssl-config-core_2.11;0.1.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#ssl-config-core_2.11;0.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -490,9 +388,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe#ssl-config-core_2.11;0.1.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->com.typesafe#ssl-config-core_2.11;0.1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.2.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.3.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.2.0 [compile->compile(*)][0m
@@ -505,9 +401,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.reactivestreams#reactive-streams;1.0.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.reactivestreams#reactive-streams;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
@@ -520,9 +415,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -548,9 +442,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-slf4j_2.11;2.4.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.akka#akka-slf4j_2.11;2.4.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)][0m
@@ -1188,23 +1080,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-test_2.11;2.5.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-test_2.11;2.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->com.typesafe.play#play-netty-server_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->com.typesafe.play#play-netty-server_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->com.typesafe.play#play-server_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->com.typesafe.play#play-server_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#build-link;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#build-link;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#build-link;2.5.0->com.typesafe.play#play-exceptions;2.5.0 [runtime->runtime(*)][0m
@@ -1212,32 +1100,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-json_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-json_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-functional_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-functional_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-datacommons_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-datacommons_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->joda-time#joda-time;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->joda-time#joda-time;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.joda#joda-convert;1.8.1 [runtime->runtime(*)][0m
@@ -1282,8 +1166,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-streams_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-streams_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
@@ -1291,28 +1174,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.akka#akka-stream_2.11;2.4.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.akka#akka-stream_2.11;2.4.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe#ssl-config-akka_2.11;0.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe#ssl-config-akka_2.11;0.1.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->com.typesafe#ssl-config-core_2.11;0.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->com.typesafe#ssl-config-core_2.11;0.1.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.3.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
@@ -1320,8 +1200,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#twirl-api_2.11;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#twirl-api_2.11;1.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
@@ -1338,8 +1218,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.akka#akka-slf4j_2.11;2.4.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.akka#akka-slf4j_2.11;2.4.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
@@ -1455,9 +1334,7 @@
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-ws_2.11;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-ws_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.google.guava#guava;19.0 [compile->master(compile)][0m
@@ -1617,8 +1494,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-ws_2.11;2.5.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-ws_2.11;2.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.google.guava#guava;19.0 [runtime->runtime(*)][0m
@@ -1673,8 +1549,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.5.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.5.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-test_2.11;2.5.0 [runtime->runtime(*)][0m
@@ -1686,6 +1561,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-ws_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-ws_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-testkit_2.11;2.4.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.11;2.4.0 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.4.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-testkit_2.11;2.4.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -1697,29 +1591,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -1730,29 +1616,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [test-internal][0m
@@ -1763,79 +1641,56 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.4->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-test_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-test_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->com.typesafe.play#play-netty-server_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->com.typesafe.play#play-netty-server_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->com.typesafe.play#play-server_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->com.typesafe.play#play-server_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#build-link;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#build-link;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#build-link;2.5.0->com.typesafe.play#play-exceptions;2.5.0 [compile->master(compile)][0m
@@ -1843,38 +1698,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-json_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-json_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-functional_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-functional_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-datacommons_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-datacommons_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->joda-time#joda-time;2.9.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->joda-time#joda-time;2.9.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.joda#joda-convert;1.8.1 [compile->master(compile)][0m
@@ -1920,9 +1766,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-streams_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-streams_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master(compile)][0m
@@ -1930,31 +1774,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.akka#akka-stream_2.11;2.4.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.akka#akka-stream_2.11;2.4.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe#ssl-config-akka_2.11;0.1.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe#ssl-config-akka_2.11;0.1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->com.typesafe#ssl-config-core_2.11;0.1.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->com.typesafe#ssl-config-core_2.11;0.1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.2.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.3.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.2.0 [compile->compile(*)][0m
@@ -1963,9 +1801,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.reactivestreams#reactive-streams;1.0.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.reactivestreams#reactive-streams;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)][0m
@@ -1974,9 +1811,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
@@ -1994,9 +1830,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.akka#akka-slf4j_2.11;2.4.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.akka#akka-slf4j_2.11;2.4.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.slf4j#slf4j-api;1.7.16 [compile->master(compile)][0m
@@ -2259,9 +2093,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-ws_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-ws_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.google.guava#guava;19.0 [compile->master(compile)][0m
@@ -2339,43 +2171,36 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->org.scalatest#scalatest_2.11;2.2.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-test_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-test_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->com.typesafe.play#play-netty-server_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.0->com.typesafe.play#play-netty-server_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->com.typesafe.play#play-server_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.0->com.typesafe.play#play-server_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#build-link;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#build-link;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#build-link;2.5.0->com.typesafe.play#play-exceptions;2.5.0 [runtime->runtime(*)][0m
@@ -2383,32 +2208,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.5.0->com.typesafe#config;1.3.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-json_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-json_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-functional_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-functional_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-functional_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-datacommons_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->com.typesafe.play#play-datacommons_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-datacommons_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->joda-time#joda-time;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->joda-time#joda-time;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.5.0->org.joda#joda-convert;1.8.1 [runtime->runtime(*)][0m
@@ -2453,8 +2274,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-streams_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#play-streams_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.play#play-iteratees_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
@@ -2462,35 +2282,33 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.akka#akka-stream_2.11;2.4.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->com.typesafe.akka#akka-stream_2.11;2.4.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe#ssl-config-akka_2.11;0.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->com.typesafe#ssl-config-akka_2.11;0.1.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->com.typesafe#ssl-config-core_2.11;0.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-akka_2.11;0.1.3->com.typesafe#ssl-config-core_2.11;0.1.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->com.typesafe#config;1.3.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe#ssl-config-core_2.11;0.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.2->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-streams_2.11;2.5.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
@@ -2498,8 +2316,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#twirl-api_2.11;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.play#twirl-api_2.11;1.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
@@ -2516,8 +2334,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.akka#akka-slf4j_2.11;2.4.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.5.0->com.typesafe.akka#akka-slf4j_2.11;2.4.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.11;2.4.2->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
@@ -2775,8 +2592,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-ws_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatestplus.play#scalatestplus-play_2.11;1.5.1->com.typesafe.play#play-ws_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.typesafe.play#play_2.11;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ws_2.11;2.5.0->com.google.guava#guava;19.0 [runtime->runtime(*)][0m
@@ -2831,6 +2647,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.5.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.5.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scalatestplus.play#scalatestplus-play_2.11;1.5.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#follower-maze_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -2856,8 +2687,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
@@ -2910,20 +2739,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#follower-maze_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0mall callers are evicted for com.typesafe#config;1.2.1: evicting too[0m
+[0m[[0mdebug[0m] [0mall callers are evicted for com.typesafe#config;1.2.1: evicting too[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar ...[0m
-[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar[0m
-[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT!akka-actor_2.11.jar (622ms)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.4!akka-actor_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatestplus.play#scalatestplus-play_2.11;1.5.1!scalatestplus-play_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.0!akka-testkit_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.6!scalatest_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.5.0!play-test_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.20!htmlunit.jar[0m
@@ -2966,8 +2790,10 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.inject#guice;4.0!guice.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.5.0!play-exceptions.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.5.0!play-functional_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.5.0!play-datacommons_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar[0m
@@ -3029,7 +2855,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4988ms :: artifacts dl 689ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3174ms :: artifacts dl 83ms[0m
 [0m[[0mdebug[0m] [0m	report for default#follower-maze_2.11;1.0 compile produced in /Users/elliebulka/Documents/workspace/follower-maze/target/resolution-cache/reports/default-follower-maze_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#follower-maze_2.11;1.0 runtime produced in /Users/elliebulka/Documents/workspace/follower-maze/target/resolution-cache/reports/default-follower-maze_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#follower-maze_2.11;1.0 test produced in /Users/elliebulka/Documents/workspace/follower-maze/target/resolution-cache/reports/default-follower-maze_2.11-test.xml[0m
@@ -3043,10 +2869,5 @@
 [0m[[0mdebug[0m] [0m	report for default#follower-maze_2.11;1.0 docs produced in /Users/elliebulka/Documents/workspace/follower-maze/target/resolution-cache/reports/default-follower-maze_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#follower-maze_2.11;1.0 pom produced in /Users/elliebulka/Documents/workspace/follower-maze/target/resolution-cache/reports/default-follower-maze_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#follower-maze_2.11;1.0 scala-tool produced in /Users/elliebulka/Documents/workspace/follower-maze/target/resolution-cache/reports/default-follower-maze_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4988ms resolve - 689ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (3174ms resolve - 83ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
-[0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
-[0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:2.11.7 -> 2.11.8[0m
-[0m[[33mwarn[0m] [0mTo force scalaVersion, add the following:[0m
-[0m[[33mwarn[0m] [0m	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }[0m
-[0m[[33mwarn[0m] [0mRun 'evicted' to see detailed eviction warnings[0m
