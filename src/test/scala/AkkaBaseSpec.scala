@@ -9,6 +9,7 @@ import scala.concurrent.duration.{DurationInt, FiniteDuration}
 
 abstract class AkkaBaseSpec extends BaseSpec with BeforeAndAfterAll {
 
+
   implicit class TestProbeOps(probe: TestProbe) {
 
     def expectActor(path: String, max: FiniteDuration = 3.seconds): ActorRef = {

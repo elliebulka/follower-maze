@@ -1,11 +1,13 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(scala.FollowerMazeAppSpec, org.scalatest.tools.Framework$$anon$1@76640022, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(scala.FollowerMazeAppSpec, org.scalatest.tools.Framework$$anon$1@6f8e4df8, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(eventsource.EventSourceConnectionListenerSpec, org.scalatest.tools.Framework$$anon$1@6f8e4df8, false, [SuiteSelector])[0m
 [0m[[0minfo[0m] [0mScalaTest[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 779 milliseconds.[0m[0m
-[0m[[0minfo[0m] [0m[36mTotal number of tests run: 3[0m[0m
-[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0minfo[0m] [0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 963 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
 [0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 3, Failed 0, Errors 0, Passed 3[0m
+[0m[[0minfo[0m] [0mPassed: Total 4, Failed 0, Errors 0, Passed 4[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	eventsource.EventSourceConnectionListenerSpec[0m
 [0m[[0mdebug[0m] [0m	scala.FollowerMazeAppSpec[0m

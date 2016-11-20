@@ -1,5 +1,6 @@
 package scala
 
+import akka.actor.ActorSystem
 import akka.testkit.TestProbe
 import src.main.scala.FollowerMazeApp
 
