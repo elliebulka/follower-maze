@@ -1,6 +1,6 @@
 package src.main.scala
 
-import akka.actor.{Actor, ActorRef, ActorSystem, Props}
+import akka.actor.{ActorRef, ActorSystem, Props}
 import scala.eventsource.EventHandler
 
 object FollowerMazeApp extends App {
@@ -12,12 +12,12 @@ object FollowerMazeApp extends App {
 
 class FollowerMazeApp(system: ActorSystem) {
 
-  import akka.actor.{Actor, ActorRef, ActorSystem, Props}
-
   private val eventHandler = createEventHandler()
 
   protected def createEventHandler(): ActorRef ={
     system.actorOf(Props[EventHandler], "event-handler")
   }
+
+  //create event listener and source listener actors
 
 }

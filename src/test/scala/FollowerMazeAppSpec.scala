@@ -1,8 +1,6 @@
 package scala
 
-import akka.actor.ActorDSL._
 import akka.testkit.TestProbe
-import akka.util.Timeout
 import src.main.scala.FollowerMazeApp
 
 class FollowerMazeAppSpec extends AkkaBaseSpec {
@@ -10,9 +8,17 @@ class FollowerMazeAppSpec extends AkkaBaseSpec {
 
 
   "Creating FollowerMazeApp" should {
-    "result in creating a top-level actor named 'event-handler'" in {
+    "result in creating an actor named 'event-handler'" in {
       new FollowerMazeApp(system)
       TestProbe().expectActor("/user/event-handler")
+    }
+    "result in creating an actor named 'event-listener'" in {
+      new FollowerMazeApp(system)
+      TestProbe().expectActor("/user/event-listener")
+    }
+    "result in creating an actor named 'source-listener'" in {
+      new FollowerMazeApp(system)
+      TestProbe().expectActor("/user/source-listener")
     }
   }
 

@@ -25,5 +25,9 @@ object Event {
     toUserId: Int
                            ) extends Event
 
+  case class UserConnectionEvent (
+    userId: Int
+                                 )
+
 
 }
