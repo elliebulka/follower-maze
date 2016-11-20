@@ -5,8 +5,6 @@ import src.main.scala.FollowerMazeApp
 
 class FollowerMazeAppSpec extends AkkaBaseSpec {
 
-
-
   "Creating FollowerMazeApp" should {
     "result in creating an actor named 'event-handler'" in {
       new FollowerMazeApp(system)

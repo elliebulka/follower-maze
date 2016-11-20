@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed20f50-4d70-4f12-aa14-552e8ae2c7f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/FollowerMazeApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/FollowerMazeApp.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala" afterPath="$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/models/Event.scala" afterPath="$PROJECT_DIR$/src/main/scala/models/Event.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/FollowerMazeAppSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/FollowerMazeAppSpec.scala" />
     </list>
     <ignored path="follower-maze.iws" />
@@ -43,18 +42,20 @@
       <file leaf-file-name="FollowerMazeApp.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/FollowerMazeApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#72#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FollowerMazeAppSpec.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FollowerMazeAppSpec.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/FollowerMazeAppSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#15#44#0" expanded="true" />
               </folding>
@@ -72,11 +73,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AkkaBaseSpec.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/AkkaBaseSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="e#15#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="EventSourceConnectionListener.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventSourceConnectionListener.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -112,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Event.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Event.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/models/Event.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -159,18 +172,18 @@
         <option value="$PROJECT_DIR$/src/test/scala/AkkaBaseSpec.scala" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
-        <option value="$PROJECT_DIR$/src/main/scala/models/Event.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/eventsource/EventSourceConnectionListener.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/eventsource/EventListener.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/FollowerMazeApp.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/FollowerMazeAppSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/models/Event.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="20" />
-    <option name="y" value="39" />
+    <option name="y" value="40" />
     <option name="width" value="1260" />
     <option name="height" value="669" />
   </component>
@@ -376,6 +389,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Event.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -825,7 +842,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="39" width="1260" height="669" extended-state="0" />
+    <frame x="20" y="40" width="1260" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -875,7 +892,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#24#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -944,7 +963,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#24#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,29 +1047,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Event.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventConnectionListener.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/AkkaBaseSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#15#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,6 +1073,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventListener.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1080,35 +1091,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventSourceConnectionListener.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/FollowerMazeApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/FollowerMazeAppSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#15#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/AkkaBaseSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FollowerMazeApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Event.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
