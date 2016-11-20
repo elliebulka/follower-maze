@@ -14,6 +14,12 @@ object UserClientConnectionListener {
   def props(eventHandler: ActorRef) = Props(classOf[UserClientConnectionListener], eventHandler)
 }
 
+/**
+  * User Client Connection Listener actor listens for user clients connection on specified port.
+  * When the client is connected, a  user client listener actor is created and registered.
+  * 
+  * @param eventHandler event handler actor
+  */
 class UserClientConnectionListener(eventHandler: ActorRef) extends Actor {
 
   import context.system
@@ -25,8 +31,8 @@ class UserClientConnectionListener(eventHandler: ActorRef) extends Actor {
   def receive: Receive = {
     case Connected(remote, local) =>
       val userConnection = sender()
-     // val userConnectionHandler = system.actorOf(UserConnectionHandler.props(userConnection, eventDistributor), UUID.randomUUID().toString)
-     // userConnection ! Register(userConnectionHandler)
+      val userClientListener = system.actorOf(UserClientListener.props(userConnection, eventHandler), UUID.randomUUID().toString)
+      userConnection ! Register(userClientListener)
   }
 
 }

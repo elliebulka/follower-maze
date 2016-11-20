@@ -3,6 +3,8 @@ package eventsource
 import akka.actor.{Actor, ActorRef, Props}
 import akka.io.Tcp.Received
 
+import scala.models.Types.Payload
+
 /**
   * Created by elliebulka on 11/20/16.
   */
@@ -19,7 +21,9 @@ object EventListener {
 class EventListener(eventHandler: ActorRef) extends Actor {
 
   def receive: Receive = {
+
     case Received(eventData) => eventHandler ! eventData.utf8String
+
   }
 
 }

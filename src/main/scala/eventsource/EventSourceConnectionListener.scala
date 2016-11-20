@@ -17,7 +17,7 @@ object EventSourceConnectionListener {
   * The event source connection listener actor listens on port 9090 for an incoming event
   * source connection. When a connection is received and event listener actor is created to
   * receive and process the incoming stream of events from the event source.
-  * 
+  *
   * @param eventHandler event handler actor
   */
 class EventSourceConnectionListener(eventHandler: ActorRef) extends Actor {
