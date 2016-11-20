@@ -1,7 +1,8 @@
 package src.main.scala
 
 import akka.actor.{ActorRef, ActorSystem, Props}
-import eventsource.{EventListener, EventSourceConnectionListener}
+import eventsource.{EventSourceConnectionListener}
+import userclient.UserClientConnectionListener
 
 import scala.eventsource.EventHandler
 
@@ -16,6 +17,7 @@ class FollowerMazeApp(system: ActorSystem) {
 
   private val eventHandler = createEventHandler()
   private val eventSourceConnectionListener = createEventSourceConnectionListner()
+  private val userClientConnectionListener = createUserClientConnectionListener()
 
   protected def createEventHandler(): ActorRef = {
     system.actorOf(Props[EventHandler], "event-handler")
@@ -25,6 +27,8 @@ class FollowerMazeApp(system: ActorSystem) {
     system.actorOf(EventSourceConnectionListener.props(eventHandler), "event-source-connection-listener")
   }
 
-  //create event listener and source listener actors
+  protected def createUserClientConnectionListener(): ActorRef = {
+    system.actorOf(UserClientConnectionListener.props(eventHandler), "user-client-connection-listener")
+  }
 
 }

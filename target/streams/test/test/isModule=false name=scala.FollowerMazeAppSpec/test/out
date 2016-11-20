@@ -1,15 +1,5 @@
 [0m[[0minfo[0m] [0m[32mFollowerMazeAppSpec:[0m[0m
 [0m[[0minfo[0m] [0m[32mCreating FollowerMazeApp[0m[0m
-[0m[[0minfo[0m] [0m[31m- should result in creating a top-level actor named 'event-handler' *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: expected:  but got unexpected message ActorIdentity(/event-handler,None)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:165)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsgPF(TestKit.scala:369)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKit.expectMsgPF(TestKit.scala:735)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.AkkaBaseSpec$TestProbeOps$$anonfun$expectActor$1$$anonfun$apply$2.apply(AkkaBaseSpec.scala:19)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.poll$2(TestKit.scala:266)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.awaitAssert(TestKit.scala:277)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKit.awaitAssert(TestKit.scala:735)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.AkkaBaseSpec$TestProbeOps$$anonfun$expectActor$1.apply(AkkaBaseSpec.scala:17)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.AkkaBaseSpec$TestProbeOps$$anonfun$expectActor$1.apply(AkkaBaseSpec.scala:15)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.within(TestKit.scala:308)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating an actor named 'event-handler'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating an actor named 'event-source-connection-listener'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating an actor named 'user-client-connection-listener'[0m[0m

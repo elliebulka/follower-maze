@@ -12,14 +12,13 @@ class FollowerMazeAppSpec extends AkkaBaseSpec {
       new FollowerMazeApp(system)
       TestProbe().expectActor("/user/event-handler")
     }
-    "result in creating an actor named 'event-listener'" in {
-      new FollowerMazeApp(system)
-      TestProbe().expectActor("/user/event-listener")
+    "result in creating an actor named 'event-source-connection-listener'" in {
+      TestProbe().expectActor("/user/event-source-connection-listener")
     }
-    "result in creating an actor named 'source-listener'" in {
-      new FollowerMazeApp(system)
-      TestProbe().expectActor("/user/source-listener")
+    "result in creating an actor named 'user-client-connection-listener'" in {
+      TestProbe().expectActor("/user/user-client-connection-listener")
     }
+
   }
 
 
