@@ -22,7 +22,7 @@ class EventListener(eventHandler: ActorRef) extends Actor {
 
   def receive: Receive = {
 
-    case Received(eventData) => eventHandler ! eventData.utf8String
+    case Received(eventData) => eventHandler ! eventData.utf8String.trim
 
   }
 

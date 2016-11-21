@@ -17,7 +17,7 @@ object UserClientConnectionListener {
 /**
   * User Client Connection Listener actor listens for user clients connection on specified port.
   * When the client is connected, a  user client listener actor is created and registered.
-  * 
+  *
   * @param eventHandler event handler actor
   */
 class UserClientConnectionListener(eventHandler: ActorRef) extends Actor {
