@@ -7,9 +7,10 @@ import scala.models.Event.{Event, FollowEvent, UnfollowEvent, UserConnectionEven
 import scala.models.Types.{EventString, Payload, UserId}
 
 
-class EventHandler extends Actor with EventConversion {
+class EventHandler extends Actor {
 
-  private val userConnections = mutable.Map.empty[UserId, mutable.ListBuffer[ActorRef]]
+  private val userConnections = mutable.Map.empty[UserId, mutable.Buffer[ActorRef]]
+  private val userFollowers = mutable.Map.empty[UserId, mutable.Set[UserId]]
   private val payloadsSeparator = "/n"
   private val payloadFieldSeparator = "|"
 
@@ -22,19 +23,26 @@ class EventHandler extends Actor with EventConversion {
         handleEvent(payload)
       }
     case UserConnectionEvent(id) =>
-      val connections = userConnections.getOrElseUpdate(id, mutable.ListBuffer.empty[ActorRef])
+      val connections = userConnections.getOrElseUpdate(id, mutable.Buffer.empty[ActorRef])
       sender() +=: connections
   }
 
   private def handleEvent(event: Event) = {
     event match {
-      case FollowEvent(payload, sequence, payloadType, from, to) => follow(payload, fromUserId, toUserId)
-      case _ => // ignore
+      case FollowEvent(payload, sequence, payloadType, fromUserId, toUserId) => follow(payload, fromUserId, toUserId)
+      case _ => // do nothing
     }
   }
 
   private def follow(payload: String, fromUserId: Int, toUserId: Int) = {
-  
+    val followers = userFollowers.getOrElseUpdate(toUserId, mutable.Set.empty[UserId])
+    followers += fromUserId
+    for {
+      connections <- userConnections.get(toUserId)
+      userConnection <- connections
+    } {
+      userConnection ! payload
+    }
   }
 
   private def eventStringToEvents(eventString: EventString): Array[Event] = {
