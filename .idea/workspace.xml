@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ed20f50-4d70-4f12-aa14-552e8ae2c7f7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala" afterPath="$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/eventsource/EventListener.scala" afterPath="$PROJECT_DIR$/src/main/scala/eventsource/EventListener.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/eventsource/EventSourceConnectionListener.scala" afterPath="$PROJECT_DIR$/src/main/scala/eventsource/EventSourceConnectionListener.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/models/Event.scala" afterPath="$PROJECT_DIR$/src/main/scala/models/Event.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala" afterPath="$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/userclient/UserClientListener.scala" afterPath="$PROJECT_DIR$/src/main/scala/userclient/UserClientListener.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/eventsource/EventListenerSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/eventsource/EventListenerSpec.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/eventsource/EventSourceConnectionListenerSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/eventsource/EventSourceConnectionListenerSpec.scala" />
     </list>
     <ignored path="follower-maze.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +65,8 @@
       <file leaf-file-name="Event.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/models/Event.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -82,8 +75,8 @@
       <file leaf-file-name="EventHandler.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
+            <state relative-caret-position="522">
+              <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
               <folding>
                 <element signature="e#27#82#0" expanded="true" />
               </folding>
@@ -209,10 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1369,14 +1358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Event.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventSourceConnectionListener.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -1387,10 +1368,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Event.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
+        <state relative-caret-position="522">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
           <folding>
             <element signature="e#27#82#0" expanded="true" />
           </folding>

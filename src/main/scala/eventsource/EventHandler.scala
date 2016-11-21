@@ -3,7 +3,7 @@ package scala.eventsource
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 
 import scala.collection.mutable
-import scala.models.Event.{Event, FollowEvent, UserConnectionEvent}
+import scala.models.Event.{Event, FollowEvent, UnfollowEvent, UserConnectionEvent}
 import scala.models.Types.{EventString, Payload, UserId}
 
 
@@ -27,11 +27,14 @@ class EventHandler extends Actor with EventConversion {
   }
 
   private def handleEvent(event: Event) = {
-
+    event match {
+      case FollowEvent(payload, sequence, payloadType, from, to) => follow(payload, fromUserId, toUserId)
+      case _ => // ignore
+    }
   }
 
-  private def follow(message: String) = {
-
+  private def follow(payload: String, fromUserId: Int, toUserId: Int) = {
+  
   }
 
   private def eventStringToEvents(eventString: EventString): Array[Event] = {
