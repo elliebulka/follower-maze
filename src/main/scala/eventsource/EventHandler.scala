@@ -4,7 +4,7 @@ import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 
 import scala.collection.mutable
 import scala.models.Event.{Event, FollowEvent, UserConnectionEvent}
-import scala.models.Types.{Payload, UserId}
+import scala.models.Types.{EventString, Payload, UserId}
 
 
 class EventHandler extends Actor with EventConversion {
@@ -14,9 +14,12 @@ class EventHandler extends Actor with EventConversion {
   private val payloadFieldSeparator = "|"
 
   def receive: Receive = {
-    case payload: Payload =>
-      payloadsStringToEvents(payload).sortWith(_.payload < _.payload) foreach { event =>
-        handleEvent(event)
+    /**
+      * sort events by sequence id before they are handled
+      */
+    case events: EventString =>
+      eventStringToEvents(events).sortWith(_.sequence < _.sequence) foreach { payload =>
+        handleEvent(payload)
       }
     case UserConnectionEvent(id) =>
       val connections = userConnections.getOrElseUpdate(id, mutable.ListBuffer.empty[ActorRef])
@@ -31,8 +34,8 @@ class EventHandler extends Actor with EventConversion {
 
   }
 
-  private def payloadsStringToEvents(payloadsString: Payload): Array[Event] = {
-    payloadsString.split(payloadsSeparator) flatMap { payload =>
+  private def eventStringToEvents(eventString: EventString): Array[Event] = {
+    eventString.split(payloadsSeparator) flatMap { payload =>
       val event = for {
         event <- payloadToEvent(payload)
       } yield {
@@ -48,7 +51,7 @@ class EventHandler extends Actor with EventConversion {
   private def payloadToEvent(payloadString: Payload): Option[Event] = {
     val eventFields = payloadString.split(payloadFieldSeparator)
     eventFields(1) match {
-        case "F" => Some(FollowEvent(payloadString, eventFields(1),
+        case "F" => Some(FollowEvent(payloadString, eventFields(1).toInt,
           eventFields(0), eventFields(3).toInt, eventFields(2).toInt))
       }
   }

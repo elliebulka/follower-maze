@@ -8,10 +8,6 @@ import akka.util.ByteString
 import scala.models.Event.UserConnectionEvent
 import scala.models.Types._
 
-/**
-  * Created by elliebulka on 11/20/16.
-  */
-
 object UserClientListener {
   def props(userConnection: ActorRef, eventHandler: ActorRef) = Props(classOf[UserClientListener],
     userConnection, eventHandler)

@@ -4,9 +4,9 @@ import scala.models.Types.{Payload, Sequence, UserId}
 
 package object Types {
 
-  type Id = Int
-  type UserId = Id
-  type Sequence = String
+  type EventString = String
+  type UserId = Int
+  type Sequence = Int
   type Payload = String
 
 }

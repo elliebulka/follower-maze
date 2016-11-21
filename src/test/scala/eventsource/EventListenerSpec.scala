@@ -1,15 +1,10 @@
 package eventsource
 
-import java.net.InetSocketAddress
-
 import akka.io.Tcp.{Connected, Received}
 import akka.testkit.TestProbe
 import akka.util.ByteString
-import org.webbitserver.netty.EventSourceConnectionHandler
 
-/**
-  * Created by elliebulka on 11/20/16.
-  */
+
 class EventListenerSpec extends AkkaBaseSpec {
 
   "Receiving to event data " should {

@@ -7,9 +7,6 @@ import akka.actor.{Actor, ActorRef, Props}
 import akka.io.Tcp.{Bind, Connected, Register}
 import akka.io.{IO, Tcp}
 
-/**
-  * Created by elliebulka on 11/20/16.
-  */
 object UserClientConnectionListener {
   def props(eventHandler: ActorRef) = Props(classOf[UserClientConnectionListener], eventHandler)
 }

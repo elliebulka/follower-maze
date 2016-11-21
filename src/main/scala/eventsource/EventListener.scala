@@ -3,11 +3,6 @@ package eventsource
 import akka.actor.{Actor, ActorRef, Props}
 import akka.io.Tcp.Received
 
-import scala.models.Types.Payload
-
-/**
-  * Created by elliebulka on 11/20/16.
-  */
 object EventListener {
   def props(eventHandler: ActorRef) = Props(classOf[EventListener], eventHandler)
 }

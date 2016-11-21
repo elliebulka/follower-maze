@@ -5,13 +5,7 @@ import java.net.InetSocketAddress
 
 import akka.io.{IO, Tcp}
 import akka.io.Tcp.{Connect, Connected, Register}
-import src.main.scala.FollowerMazeApp
 
-
-
-/**
-  * Created by elliebulka on 11/20/16.
-  */
 class EventSourceConnectionListenerSpec extends AkkaBaseSpec {
 
 
