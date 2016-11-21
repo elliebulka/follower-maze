@@ -6,7 +6,7 @@ package object Types {
 
   type Id = Int
   type UserId = Id
-  type Sequence = Id
+  type Sequence = String
   type Payload = String
 
 }
