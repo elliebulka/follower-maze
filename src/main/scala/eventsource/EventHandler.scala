@@ -26,7 +26,7 @@ class EventHandler extends Actor {
       */
     case events: EventString =>
       eventStringToEventsArray(events).sortWith(_.sequence < _.sequence) foreach { payload =>
-        handleEvent(payload)
+        processEvent(payload)
       }
     case UserConnectionEvent(id) =>
       val connections = userConnections.getOrElseUpdate(id, mutable.Buffer.empty[ActorRef])
@@ -37,7 +37,7 @@ class EventHandler extends Actor {
     *
     * @param event
     */
-  private def handleEvent(event: Event) = {
+  private def processEvent(event: Event) = {
     println("processing event: " + event.toString)
     event match {
       case FollowEvent(payload, sequence, payloadType, fromUserId, toUserId) => follow(payload, fromUserId, toUserId)
