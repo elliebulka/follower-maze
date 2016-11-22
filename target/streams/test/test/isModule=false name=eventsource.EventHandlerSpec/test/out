@@ -3,3 +3,9 @@
 [0m[[0minfo[0m] [0m[32m- should take payload string and return correct event[0m[0m
 [0m[[0minfo[0m] [0m[32mevent string to event array[0m[0m
 [0m[[0minfo[0m] [0m[32m- should take event string and return correct event array[0m[0m
+[0m[[0minfo[0m] [0m[32mfollow/unfollow events[0m[0m
+[0m[[0minfo[0m] [0m[32m- should change list of followers[0m[0m
+[0m[[0minfo[0m] [0m[32mbroadcast events[0m[0m
+[0m[[0minfo[0m] [0m[32m- should route broadcast event to correct users[0m[0m
+[0m[[0minfo[0m] [0m[32mstatus update events[0m[0m
+[0m[[0minfo[0m] [0m[32m- should route update events to correct users[0m[0m

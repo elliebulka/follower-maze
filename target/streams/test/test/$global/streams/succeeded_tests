@@ -1,7 +1,8 @@
 #Successful Tests
-#Tue Nov 22 16:39:02 EST 2016
-eventsource.EventListenerSpec=1479850742515
-scala.FollowerMazeAppSpec=1479850742633
-eventsource.EventSourceConnectionListenerSpec=1479850742532
-userclient.UserClientConnectionListenerSpec=1479850742515
-eventsource.EventHandlerSpec=1479850742604
+#Tue Nov 22 18:20:59 EST 2016
+eventsource.EventListenerSpec=1479856859635
+scala.FollowerMazeAppSpec=1479856859742
+userclient.UserClientListenerSpec=1479856859764
+eventsource.EventSourceConnectionListenerSpec=1479856859638
+userclient.UserClientConnectionListenerSpec=1479856859637
+eventsource.EventHandlerSpec=1479856859768

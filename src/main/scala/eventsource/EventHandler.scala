@@ -10,8 +10,8 @@ import scala.models.Types.{EventString, Payload, UserId}
 
 class EventHandler extends Actor {
 
-  private val userConnections = mutable.Map.empty[UserId, mutable.Buffer[ActorRef]]
-  private val userFollowers = mutable.Map.empty[UserId, mutable.Buffer[UserId]]
+   val userConnections = mutable.Map.empty[UserId, mutable.Buffer[ActorRef]]
+   val userFollowers = mutable.Map.empty[UserId, mutable.Buffer[UserId]]
   /**
     * character separates payloads in event string
     */
@@ -35,7 +35,7 @@ class EventHandler extends Actor {
   }
 
   /**
-    *
+    * Matches event to correct Event type and performs event action
     * @param event
     */
   private def processEvent(event: Event) = {
@@ -54,7 +54,7 @@ class EventHandler extends Actor {
     * followers and notifies user with id toUserId of the
     * follow event
     *
-    * @param payload
+    * @param payload Event sent to user with id toUserId
     * @param fromUserId user that is following
     * @param toUserId user that is being followed
     */
@@ -94,6 +94,11 @@ class EventHandler extends Actor {
     }
   }
 
+  /**
+    * Send a message to single user with id toUserId
+    * @param payload Event info to be sent to user
+    * @param toUserId id of user event is sent to
+    */
   private def privateMessage(payload: Payload, toUserId: UserId): Unit = {
     for {
       connections <- userConnections.get(toUserId)
@@ -103,6 +108,11 @@ class EventHandler extends Actor {
     }
   }
 
+  /**
+    * Send a message to all followers of user with fromUserId
+    * @param payload Event info to be sent to all followers
+    * @param fromUserId id of user sending event to all followers
+    */
   private def updateStatus(payload: Payload, fromUserId: UserId) = {
     for {
       followerList <- userFollowers.get(fromUserId)
