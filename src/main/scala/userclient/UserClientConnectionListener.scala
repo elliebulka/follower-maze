@@ -28,7 +28,7 @@ class UserClientConnectionListener(eventHandler: ActorRef) extends Actor {
   def receive: Receive = {
     case Connected(remote, local) =>
       val userConnection = sender()
-      val userClientListener = system.actorOf(UserClientListener.props(userConnection, eventHandler))
+      val userClientListener = system.actorOf(UserClientListener.props(userConnection, eventHandler), UUID.randomUUID().toString)
       userConnection ! Register(userClientListener)
   }
 

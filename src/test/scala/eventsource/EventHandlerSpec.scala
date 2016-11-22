@@ -1,0 +1,6 @@
+package eventsource
+
+
+class EventHandlerSpec {
+
+}

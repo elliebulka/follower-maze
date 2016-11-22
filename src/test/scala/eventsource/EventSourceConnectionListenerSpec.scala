@@ -2,9 +2,7 @@ package eventsource
 
 import akka.testkit.TestProbe
 import java.net.InetSocketAddress
-
-import akka.io.{IO, Tcp}
-import akka.io.Tcp.{Connect, Connected, Register}
+import akka.io.Tcp.{Connected}
 
 class EventSourceConnectionListenerSpec extends AkkaBaseSpec {
 

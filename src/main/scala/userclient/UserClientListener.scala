@@ -1,7 +1,7 @@
 package userclient
 
 import akka.actor.Actor.Receive
-import akka.actor.{ActorRef, Props}
+import akka.actor.{Actor, ActorRef, Props}
 import akka.io.Tcp.{Received, Write}
 import akka.util.ByteString
 
@@ -20,7 +20,7 @@ object UserClientListener {
   * @param userConnection user connection actor
   * @param eventHandler event handler actor
   */
-class UserClientListener(userConnection: ActorRef, eventHandler: ActorRef) {
+class UserClientListener(userConnection: ActorRef, eventHandler: ActorRef) extends Actor {
 
   def receive: Receive = {
 

@@ -1,1 +1,3 @@
 [0m[[0minfo[0m] [0m[32mUserClientListenerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mReceiving user data [0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in sending user connection event to event handler[0m[0m
