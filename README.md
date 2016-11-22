@@ -1,14 +1,4 @@
 # Back-end Developer Challenge: Follower Maze
-Thanks for trying our development challenge!
-
-With this document you should have received two other files:
-
-- `followermaze.sh`, an executable bash script
-- `FollowerMaze-assembly-2.0.jar`, a JAR file to be executed on a JDK 7 JVM
-
-If you haven't received any of these, or if you think there are any
-problems with the files, please contact us immediately and
-we will re-send you the missing pieces.
 
 ## The Challenge
 The challenge proposed here is to build a system which acts as a socket
@@ -123,69 +113,21 @@ following environment variables:
 
    The interval in milliseconds used to log the sent messages counter.
 
-### Your Solution
-We expect you to send us the source code of a fully functional server for the
-proposed challenge **using the default configurations**. You still might want
-to stress-test your code with different configuration parameters to make sure
-it is not too tailored to our test-suite, and is generic enough.
+### Solution
 
-The challenge was designed so that a candidate can implement the
-solution using just the standard library of most programming languages
-and environments (i.e. no external gems/JARs/libs/modules/etc.). Feel
-free to use your preferred build and testing libraries, but the production
-code should have very minimal dependencies on third-party code,
-**preferably none at all**. E.g. we want to see what kinds of networking
-abstractions you'll come up with for this challenge. Please don't take that
-assessment criterion away from us by using an external library that does
-that for you.
+To meet this challenge, I have decided to use Scala and akka actors to receive messages
+from the event source client and forward them to appropriate user clients.
 
-Your code should build and run on a Mac or GNU/Linux machine running a
-recent OS release.
+To run you must have JVM and Scala installed
 
-*As a **non-exhaustive** example, we have received successful applications
-developed on: Node.js, Ruby, JRuby, Haskell, Clojure, Scala, Go, Python,
-Java, and C/C++.*
+To start listening for client connections on default ports, use:
+```
+$ sbt run
+```
+*Listening ports can be changed by altering src/main/resources/application.conf
 
-If you absolutely think you need some sort of third-party library,
-please write a paragraph to help us better understand your choice.
-
-### Before submitting your code
-With this document you  received a jar file and a shell script. These
-contain one possible implementation of the *event source* and *user
-client* described previously.
-
-**We expect you to make sure that your solution works with the
-supplied clients before sending it to us**. The first thing we will do
-with your code is to run it agains these clients, so you can have very
-early feedback by treating it as a test suite.
-
-To run the clients, first make sure you have the server you wrote
-running and listening to ports 9090 and 9099, then run:
-
+Once the project has started, use:
 ```
 $ ./followermaze.sh
 ```
-
-This will start the clients, which will immediately start sending
-message to your server. You know it finished without errors when it
-outputs:
-
-```
- [INFO] ==================================
- [INFO] \o/ ALL NOTIFICATIONS RECEIVED \o/
- [INFO] ==================================
-```
-
-### Assesment Criteria
-We expect you to write **code you would consider production-ready**.
-This means we want your code to be well-factored, without needless
-duplication, follow good practices and be automatically verified.
-
-What we will look at:
-- If your code fulfils the requirement, and runs against the
-supplied example server
-- How clean is your design and implementation, how easy it is to
-understand and maintain your code
-- How you verified your software, if by automated tests or some
-other way
-- What kind of documentation you ship with your code
+to start the clients

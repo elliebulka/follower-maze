@@ -1,6 +1,7 @@
 package scala.eventsource
 
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
+import errors.InvalidEventError.InvalidEventError
 
 import scala.collection.mutable
 import scala.models.Event._
@@ -38,7 +39,6 @@ class EventHandler extends Actor {
     * @param event
     */
   private def processEvent(event: Event) = {
-    println("processing event: " + event.toString)
     event match {
       case FollowEvent(payload, sequence, payloadType, fromUserId, toUserId) => follow(payload, fromUserId, toUserId)
       case UnfollowEvent(payload, sequence, payloadType, fromUserId, toUserId) => unfollow(payload, fromUserId, toUserId)
@@ -136,9 +136,10 @@ class EventHandler extends Actor {
     */
   def payloadToEvent(payload: Payload): Option[Event] = {
     val eventFields = payload.split(payloadFieldSeparator)
-    eventFields(1) match {
+    try {
+      eventFields(1) match {
         case "F" =>
-         Some(FollowEvent(payload, eventFields(0).toInt,
+          Some(FollowEvent(payload, eventFields(0).toInt,
             eventFields(1), eventFields(2), eventFields(3)))
         case "U" =>
           Some(UnfollowEvent(payload, eventFields(0).toInt,
@@ -150,8 +151,13 @@ class EventHandler extends Actor {
             eventFields(1), eventFields(2), eventFields(3)))
         case "S" =>
           Some(StatusUpdateEvent(payload, eventFields(0).toInt, eventFields(1), eventFields(2)))
-        case _ => None
       }
+    } catch {
+      case ex: ArrayIndexOutOfBoundsException => throw InvalidEventError("Invalid payload: " + payload)
+      case ex: Throwable => throw ex
+    }
+
+
   }
 
 }

@@ -17,7 +17,7 @@ class EventHandlerSpec extends AkkaBaseSpec with PrivateMethodTester {
       UnfollowEvent("1|U|12|9", 1, "U", "12", "9"), BroadcastEvent("542532|B", 542532, "B"))
     val eventHandlerRef = TestActorRef(new EventHandler)
     val eventHandler = eventHandlerRef.underlyingActor
-    
+
   }
 
   "payload to event method" should {
