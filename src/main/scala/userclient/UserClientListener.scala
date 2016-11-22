@@ -27,12 +27,12 @@ class UserClientListener(userConnection: ActorRef, eventHandler: ActorRef) {
     /**
       * UserConnectionEvent data is sent to event handler
       */
-    case Received(data) => eventHandler ! UserConnectionEvent(data.utf8String.toInt)
+    case Received(data) => eventHandler ! UserConnectionEvent(data.utf8String.trim)
 
     /**
       * Event Source payload is sent to user connection
       */
-    case payload: Payload => userConnection ! Write(ByteString(payload))
+    case payload: Payload => userConnection ! Write(ByteString(payload+"\n"))
 
   }
 
