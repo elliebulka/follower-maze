@@ -43,6 +43,8 @@ class EventHandler extends Actor {
       case FollowEvent(payload, sequence, payloadType, fromUserId, toUserId) => follow(payload, fromUserId, toUserId)
       case UnfollowEvent(payload, sequence, payloadType, fromUserId, toUserId) => unfollow(payload, fromUserId, toUserId)
       case BroadCastEvent(payload, sequence, payloadType) => broadcast(payload)
+      case PrivateMessageEvent(payload, sequence, payloadType, fromUserId, toUserId) => privateMessage(payload, toUserId)
+      case StatusUpdateEvent(payload, sequence, payloadType, fromUserId) => updates(payload, fromUserId)
       case _ => // do nothing
     }
   }
@@ -57,8 +59,8 @@ class EventHandler extends Actor {
     * @param toUserId user that is being followed
     */
   private def follow(payload: String, fromUserId: UserId, toUserId: UserId) = {
-    val followers = userFollowers.getOrElseUpdate(toUserId, mutable.Buffer.empty[UserId])
-    fromUserId +=: followers
+    val followerList = userFollowers.getOrElseUpdate(toUserId, mutable.Buffer.empty[UserId])
+    fromUserId +=: followerList
     for {
       connections <- userConnections.get(toUserId)
       userConnection <- connections
@@ -76,7 +78,7 @@ class EventHandler extends Actor {
     * @param toUserId user that is being followed
     */
   private def unfollow(payload: String, fromUserId: UserId, toUserId: UserId) = {
-    userFollowers.get(toUserId) foreach (followerSet => followerSet -= fromUserId)
+    userFollowers.get(toUserId) foreach (followerList => followerList -= fromUserId)
   }
 
   /**
@@ -91,6 +93,27 @@ class EventHandler extends Actor {
       userConnection ! payload
     }
   }
+
+  private def privateMessage(payload: Payload, toUserId: UserId): Unit = {
+    for {
+      connections <- userConnections.get(toUserId)
+      userConnection <- connections
+    } {
+      userConnection ! payload
+    }
+  }
+
+  private def updates(payload: Payload, fromUserId: UserId) = {
+    for {
+      followerList <- userFollowers.get(fromUserId)
+      follower <- followerList
+      userConnections <- userConnections.get(follower)
+      userConnection <- userConnections
+    } {
+      userConnection ! payload
+    }
+  }
+
 
   /**
     *
@@ -116,14 +139,17 @@ class EventHandler extends Actor {
     eventFields(1) match {
         case "F" =>
          Some(FollowEvent(payload, eventFields(0).toInt,
-            eventFields(1), eventFields(3), eventFields(2)))
+            eventFields(1), eventFields(2), eventFields(3)))
         case "U" =>
           Some(UnfollowEvent(payload, eventFields(0).toInt,
-            eventFields(1), eventFields(3), eventFields(2)))
+            eventFields(1), eventFields(2), eventFields(3)))
         case "B" =>
           Some(BroadCastEvent(payload, eventFields(0).toInt, eventFields(1)))
-        case "P" => None
-        case "S" => None
+        case "P" =>
+          Some(PrivateMessageEvent(payload, eventFields(0).toInt,
+            eventFields(1), eventFields(2), eventFields(3)))
+        case "S" =>
+          Some(StatusUpdateEvent(payload, eventFields(0).toInt, eventFields(1), eventFields(2)))
         case _ => None
       }
   }

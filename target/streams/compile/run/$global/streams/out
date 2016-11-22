@@ -7,4 +7,6 @@
 [0m[[0mdebug[0m] [0m	/Users/elliebulka/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread follower-maze-system-akka.actor.default-dispatcher-5 to terminate.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread follower-maze-system-akka.actor.default-dispatcher-4 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread follower-maze-system-akka.actor.default-dispatcher-4 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread follower-maze-system-scheduler-1 to terminate.[0m

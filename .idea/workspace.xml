@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed20f50-4d70-4f12-aa14-552e8ae2c7f7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$scala$eventsource$EventHandler$$eventStringToEvents$1.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$follow$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$follow$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$follow$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$follow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$receive$1$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$receive$1$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$receive$1$$anonfun$applyOrElse$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$receive$1$$anonfun$applyOrElse$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$receive$1$$anonfun$applyOrElse$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$receive$1$$anonfun$applyOrElse$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler$$anonfun$receive$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/eventsource/EventHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$FollowEvent$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$FollowEvent$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$FollowEvent.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$FollowEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$UnfollowEvent$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$UnfollowEvent$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$UnfollowEvent.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$UnfollowEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$UserConnectionEvent$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$UserConnectionEvent$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$UserConnectionEvent.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event$UserConnectionEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Event.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Types/package$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/scala/models/Types/package$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/userclient/UserClientConnectionListener$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/userclient/UserClientConnectionListener$$anonfun$receive$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/userclient/UserClientListener$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/userclient/UserClientListener$$anonfun$receive$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/userclient/UserClientListener.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/userclient/UserClientListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventListenerSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventListenerSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventListenerSpec.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventListenerSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventSourceConnectionListenerSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventSourceConnectionListenerSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventSourceConnectionListenerSpec$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventSourceConnectionListenerSpec$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventSourceConnectionListenerSpec.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/eventsource/EventSourceConnectionListenerSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec$$anonfun$1$$anonfun$apply$mcV$sp$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec$$anonfun$1$$anonfun$apply$mcV$sp$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/scala/FollowerMazeAppSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/userclient/UserClientListenerSpec.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/userclient/UserClientListenerSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala" afterPath="$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/userclient/UserClientListener.scala" afterPath="$PROJECT_DIR$/src/main/scala/userclient/UserClientListener.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/FollowerMazeAppSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/FollowerMazeAppSpec.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/eventsource/EventListenerSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/eventsource/EventListenerSpec.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/eventsource/EventSourceConnectionListenerSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/eventsource/EventSourceConnectionListenerSpec.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala" afterPath="$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/userclient/UserClientListenerSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/userclient/UserClientListenerSpec.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=eventsource.EventListenerSpec/test/out" afterPath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=eventsource.EventListenerSpec/test/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=userclient.UserClientListenerSpec/test/out" afterPath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=userclient.UserClientListenerSpec/test/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/eventsource.EventListenerSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/eventsource.EventListenerSpec.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/eventsource.EventSourceConnectionListenerSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/eventsource.EventSourceConnectionListenerSpec.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/scala.FollowerMazeAppSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/scala.FollowerMazeAppSpec.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/userclient.UserClientConnectionListenerSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/userclient.UserClientConnectionListenerSpec.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/userclient.UserClientListenerSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/userclient.UserClientListenerSpec.xml" />
     </list>
     <ignored path="follower-maze.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,7 +42,7 @@
       <file leaf-file-name="UserClientListener.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/userclient/UserClientListener.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="209">
               <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
               <folding>
                 <element signature="e#20#51#0" expanded="true" />
@@ -104,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserClientListenerSpec.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Event.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/models/Event.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserClientListenerSpec.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/userclient/UserClientListenerSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="419">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#20#41#0" expanded="true" />
               </folding>
@@ -123,6 +80,18 @@
               <caret line="14" column="73" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="73" />
               <folding>
                 <element signature="e#21#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventHandler.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+              <folding>
+                <element signature="e#27#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,7 +152,6 @@
         <option value="$PROJECT_DIR$/src/test/scala/userclient/UserClientConnectionListenerSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/eventsource/EventListener.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/models/Event.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/eventsource/EventSourceConnectionListenerSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/FollowerMazeAppSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/eventsource/EventHandlerSpec.scala" />
@@ -191,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/userclient/UserClientConnectionListener.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/userclient/UserClientListener.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/userclient/UserClientListenerSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala" />
       </list>
     </option>
   </component>
@@ -293,36 +262,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserClientListenerSpec.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -465,120 +404,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="userclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserClientListener.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="eventsource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="follower-maze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eventsource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EventListener.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1351,24 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Event.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/eventsource/EventSourceConnectionListenerSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1429,10 +1238,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/userclient/UserClientListener.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="209">
           <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
           <folding>
             <element signature="e#20#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/userclient/UserClientListenerSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1447,12 +1266,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/userclient/UserClientListenerSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Event.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="344">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/eventsource/EventHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
           <folding>
-            <element signature="e#20#41#0" expanded="true" />
+            <element signature="e#27#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
