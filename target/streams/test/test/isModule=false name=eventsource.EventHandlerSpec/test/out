@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mEventHandlerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mpayload to event method[0m[0m
+[0m[[0minfo[0m] [0m[32m- should take payload string and return correct event[0m[0m
+[0m[[0minfo[0m] [0m[32mevent string to event array[0m[0m
+[0m[[0minfo[0m] [0m[32m- should take event string and return correct event array[0m[0m

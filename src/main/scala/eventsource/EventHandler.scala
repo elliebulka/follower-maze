@@ -42,9 +42,9 @@ class EventHandler extends Actor {
     event match {
       case FollowEvent(payload, sequence, payloadType, fromUserId, toUserId) => follow(payload, fromUserId, toUserId)
       case UnfollowEvent(payload, sequence, payloadType, fromUserId, toUserId) => unfollow(payload, fromUserId, toUserId)
-      case BroadCastEvent(payload, sequence, payloadType) => broadcast(payload)
+      case BroadcastEvent(payload, sequence, payloadType) => broadcast(payload)
       case PrivateMessageEvent(payload, sequence, payloadType, fromUserId, toUserId) => privateMessage(payload, toUserId)
-      case StatusUpdateEvent(payload, sequence, payloadType, fromUserId) => updates(payload, fromUserId)
+      case StatusUpdateEvent(payload, sequence, payloadType, fromUserId) => updateStatus(payload, fromUserId)
       case _ => // do nothing
     }
   }
@@ -103,7 +103,7 @@ class EventHandler extends Actor {
     }
   }
 
-  private def updates(payload: Payload, fromUserId: UserId) = {
+  private def updateStatus(payload: Payload, fromUserId: UserId) = {
     for {
       followerList <- userFollowers.get(fromUserId)
       follower <- followerList
@@ -120,7 +120,7 @@ class EventHandler extends Actor {
     * @param eventString String containing one or more payload strings concatenated together
     * @return Array[Event]
     */
-  private def eventStringToEventsArray(eventString: EventString): Array[Event] = {
+  def eventStringToEventsArray(eventString: EventString): Array[Event] = {
     eventString.split(payloadsSeparator) flatMap { payload =>
       payloadToEvent(payload) match {
         case Some(eventResult) => Some(eventResult)
@@ -134,7 +134,7 @@ class EventHandler extends Actor {
     * @param payload single event extracted from eventString
     * @return Option[Event]
     */
-  private def payloadToEvent(payload: Payload): Option[Event] = {
+  def payloadToEvent(payload: Payload): Option[Event] = {
     val eventFields = payload.split(payloadFieldSeparator)
     eventFields(1) match {
         case "F" =>
@@ -144,7 +144,7 @@ class EventHandler extends Actor {
           Some(UnfollowEvent(payload, eventFields(0).toInt,
             eventFields(1), eventFields(2), eventFields(3)))
         case "B" =>
-          Some(BroadCastEvent(payload, eventFields(0).toInt, eventFields(1)))
+          Some(BroadcastEvent(payload, eventFields(0).toInt, eventFields(1)))
         case "P" =>
           Some(PrivateMessageEvent(payload, eventFields(0).toInt,
             eventFields(1), eventFields(2), eventFields(3)))

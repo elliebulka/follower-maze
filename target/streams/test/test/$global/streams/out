@@ -1,19 +1,21 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(eventsource.EventSourceConnectionListenerSpec, org.scalatest.tools.Framework$$anon$1@d899ac2, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(scala.FollowerMazeAppSpec, org.scalatest.tools.Framework$$anon$1@d899ac2, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(userclient.UserClientConnectionListenerSpec, org.scalatest.tools.Framework$$anon$1@d899ac2, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(eventsource.EventListenerSpec, org.scalatest.tools.Framework$$anon$1@d899ac2, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(userclient.UserClientListenerSpec, org.scalatest.tools.Framework$$anon$1@d899ac2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(userclient.UserClientListenerSpec, org.scalatest.tools.Framework$$anon$1@6c2997a3, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(eventsource.EventSourceConnectionListenerSpec, org.scalatest.tools.Framework$$anon$1@6c2997a3, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(userclient.UserClientConnectionListenerSpec, org.scalatest.tools.Framework$$anon$1@6c2997a3, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(eventsource.EventListenerSpec, org.scalatest.tools.Framework$$anon$1@6c2997a3, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(eventsource.EventHandlerSpec, org.scalatest.tools.Framework$$anon$1@6c2997a3, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(scala.FollowerMazeAppSpec, org.scalatest.tools.Framework$$anon$1@6c2997a3, false, [SuiteSelector])[0m
 [0m[[0minfo[0m] [0mScalaTest[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 426 milliseconds.[0m[0m
-[0m[[0minfo[0m] [0m[36mTotal number of tests run: 8[0m[0m
-[0m[[0minfo[0m] [0m[36mSuites: completed 5, aborted 0[0m[0m
-[0m[[0minfo[0m] [0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 462 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
 [0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 8, Failed 0, Errors 0, Passed 8[0m
+[0m[[0minfo[0m] [0mPassed: Total 10, Failed 0, Errors 0, Passed 10[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	userclient.UserClientListenerSpec[0m
 [0m[[0mdebug[0m] [0m	scala.FollowerMazeAppSpec[0m
 [0m[[0mdebug[0m] [0m	userclient.UserClientConnectionListenerSpec[0m
 [0m[[0mdebug[0m] [0m	eventsource.EventSourceConnectionListenerSpec[0m
+[0m[[0mdebug[0m] [0m	eventsource.EventHandlerSpec[0m
 [0m[[0mdebug[0m] [0m	eventsource.EventListenerSpec[0m

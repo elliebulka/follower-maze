@@ -48,7 +48,7 @@ object Event {
                                    userId: UserId
                                  )
 
-  case class BroadCastEvent(
+  case class BroadcastEvent(
                              payload: Payload,
                              sequence: Sequence,
                              payloadType: String
